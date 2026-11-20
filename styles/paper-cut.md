@@ -6,10 +6,14 @@
 
 | 项目 | 做法 |
 | --- | --- |
-| 分层 | 在 HyperFrames 场景里用 SVG 分开背景、人物、手臂、手掌和道具。按接触关系排列前后层，例如接物手掌在袋下、收拢的手指叠在袋上。 |
+| 分层 | 将背景、人物、手臂、手掌和道具画成可独立调整的图层。按接触关系排列前后层，例如接物手掌在袋下、收拢的手指叠在袋上。 |
 | 配色 | 用暖纸色 `#f2e8d5` 打底、墨色 `#24211d` 勾边、木色 `#8a6142` 标出台面。把朱砂 `#b23a2e` 留给被观众追踪的红绳和印记。田地可用苗绿 `#6e8b4a` 到谷金 `#c99a3d` 表示成熟。 |
 | 镜头 | 先用中景交代人物和物件的位置，动作开始时推到双手，之后跟随收回的手去看账本。用短暂的停顿给观众看清动作结果。 |
 | 道具与文字 | 为贯穿叙事的道具选一个能认出来的细节，例如补丁或绳结。把结果写在场景内的账本、标签或告示上，文字随笔尖出现，落印后留出读完的时间。 |
+
+人物和道具可用 SVG 分层绘制。需要手绘轮廓、笔触或不规则填色时，可用 p5.js 配合 p5.brush。 [p5.brush 文档](https://github.com/acamposuribe/p5.brush#readme)
+
+当期获准使用 AI 生图时，可用 Nano Banana Pro 生成静态纸纹或背景图，将其作为独立图层。 [Nano Banana Pro](https://blog.google/innovation-and-ai/products/nano-banana-pro/)
 
 ## 可复用的动作
 
@@ -18,4 +22,4 @@
 
 换题时可以替换人物、道具、文字和季节信号。根据道具重量和尺寸调整手位及落稳时间，根据文字长度调整留读时间。配音定稿后，把接触、落印等关键动作对齐到分镜标出的旁白词。审片时先静音播放一遍，看到交接和记账的结果后，再检查它们与旁白是否对位。
 
-两段青苗钱试片的制作记录位于原工作区的 `prototypes/qingmiao-performance/README.md` 和 `prototypes/qingmiao/README.md`。
+两段青苗钱试片用 HyperFrames 和分层 SVG 制作，记录位于原工作区的 `prototypes/qingmiao-performance/README.md` 和 `prototypes/qingmiao/README.md`。

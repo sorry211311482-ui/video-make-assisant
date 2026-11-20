@@ -8,3 +8,7 @@
 | 按动作搜翻纸、脚步、水流等录音 | 以单条音效页为准 | [Freesound](https://freesound.org/) · [许可与署名](https://freesound.org/help/faq/#licenses) |
 
 选中音效后，记下原链接、作者、许可和用在第几拍。使用 CC BY 音效时，署名并附上许可链接，有改动时注明。 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## 代码合成
+
+盖章、道具落桌等短动作可用 Node.js 脚本合成 WAV，再把起音对齐到分镜里的动作时刻。保存生成脚本和参数，便于下一期调整时长、音量和质感。 [制作路线](../skill/production-routes.md)
